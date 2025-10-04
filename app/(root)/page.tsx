@@ -1,11 +1,7 @@
 import React from "react";
 
 const HomePage = () => {
-  return (
-    <div>
-      <Button>Get in</Button>
-    </div>
-  );
+  return <div className="flex min-h-screen home-wrapper">Home</div>;
 };
 
 export default HomePage;
